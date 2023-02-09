@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travel Form</title>
+    </head>
+    <body>
+        <form name="travelForm" id="travelForm">
+            <h1>Travel Form</h1>
+            <input type="text" name="firstName" placeholder="First name..."/>
+            <br></br> <!-- is it best practice to use 'br' or 'div' to create space? -->
+            <input type="text" name="lastName" placeholder="Last name..." />
+            <br></br>
+            <input type="number" name="age" placeholder="age">
+            <br></br>
+            Male: <input type="radio" name="gender" value="Male">
+            Female: <input type="radio" name="gender" value="Female">
+            <br></br>
+            Destination
+            <select name="destination">
+                <option>Japon</option>
+                <option>Brazil</option>>
+                <option>Paris</option>>
+            <select>
+            <br></br>
+            Dietary restriction:
+             <input value="vegetarian" name="vegetarian" id="vegetarian" type="checkbox"> vegetarian
+             <input value="kosher" id="kosher" type="checkbox"> kosher
+             <input value="lactoese" id="lactose" type="checkbox"> lactose free
+             <br></br>
+            <button name="submitBtn" id="submit">Submit</button>
+        </form>
+        <script src="index.js"></script>
+    </body>
+</html>

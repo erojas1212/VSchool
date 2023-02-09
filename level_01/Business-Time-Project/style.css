@@ -1,0 +1,273 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width: 480px) {
+
+  body {
+    background-color: rgba(230, 220, 80, 0.76);
+  }
+
+
+#grid-container {
+    display: grid;
+    grid-gap: 10px;
+    /* grid-template-columns: repeat(14, 1fr);
+    grid-template-columns: repear(14, 1fr); */
+}
+
+#flex-container{
+    padding: 2px;
+    border: 2px solid black;
+    display: flex;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    justify-content: auto;
+    /* grid-column: 1 / -1; */
+}
+
+#flex-container > div:nth-child(1){
+    background-color: rgba(245, 197, 66, 0.562);
+    text-align: center;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#flex-container > div:nth-child(2) {
+    background-color: rgba(219, 40, 40, 0.562);
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#flex-container > div:nth-child(3) {
+    background-color: rgba(245, 197, 66, 0.562);
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#flex-container > div:nth-child(4) {
+    background-color: rgba(219, 40, 40, 0.562);
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#flex-container > div:nth-child(5){
+    background-color: rgba(245, 197, 66, 0.562);
+    width: 160px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+header {
+    background-color: rgb(219, 40, 40);
+    border: 2px solid black;
+    font-size: 17px;
+    text-align: center;
+    color: rgb(211, 211, 211);
+    padding: 8px;
+    /* grid-column: 1 / -1; */
+}
+
+#img-manga {
+    width: 140px;
+    position:relative;  bottom:140px; left:20px;
+
+}
+
+#search-bar {
+    background-color: rgba(219, 40, 40, 0.219);
+    border-radius: 8px;
+    height: 20px;
+    width: 300px;
+    position:relative; left:220px; bottom:180px;
+    /* grid-column: 3 / 8;
+    grid-row: 3 / 3; */
+}
+
+#p {
+    font-size: 40px;
+    font-family: cursive;
+    /*position:relative; left: 380px; */ /*this creates extra white space at the end of page*/
+    margin-left: 200px;
+}
+
+#links {
+     position: relative; bottom: 180px;
+     margin-left: 300px;
+     font-size: 20px;
+}
+
+#line1 {
+    background-color: black;
+    height: 3px;
+    position:relative;  bottom:180px;
+}
+
+nav {
+    margin-left: 10px;
+    border: 1px solid black;
+    width: 130px;
+    position:relative;  bottom: 180px; left:0px;
+    /* grid-column: 1 / 1; */
+}
+
+#li-header {
+    background-color: rgba(128, 128, 128, 0.363);
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    text-align: center;
+    margin-right: 10px;
+
+}
+
+#manga-01 {
+    width: 600px;
+    position:relative;  bottom:780px; left:160px;
+    border: solid black;
+
+}
+}
+
+
+/**************************************************************************************************************************************/
+
+@media only screen and (min-width: 1280px) {
+
+    body {
+        background-color: rgba(255, 115, 0, 0.329);
+    }
+
+    #grid-container {
+        display: grid;
+        grid-gap: 15px;
+        /* grid-template-columns: repeat(14, 1fr);
+        grid-template-columns: repear(14, 1fr); */
+    }
+
+    #flex-container{
+        padding: 2px;
+        border: 2px solid black;
+        display: flex;
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', sans-serif;
+        justify-content: space-evenly;
+        /* grid-column: 1 / -1; */
+    }
+
+    #flex-container > div:nth-child(1){
+        background-color: rgba(245, 197, 66, 0.562);
+        text-align: center;
+        width: 150px;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+
+    #flex-container > div:nth-child(2) {
+        background-color: rgba(219, 40, 40, 0.562);
+        width: 150px;
+        text-align: center;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+
+    #flex-container > div:nth-child(3) {
+        background-color: rgba(245, 197, 66, 0.562);
+        width: 150px;
+        text-align: center;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+
+    #flex-container > div:nth-child(4) {
+        background-color: rgba(219, 40, 40, 0.562);
+        width: 150px;
+        text-align: center;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+
+    #flex-container > div:nth-child(5){
+        background-color: rgba(245, 197, 66, 0.562);
+        width: 160px;
+        text-align: center;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+
+    header {
+        background-color: rgb(219, 40, 40);
+        border: 2px solid black;
+        font-size: 17px;
+        text-align: center;
+        color: rgb(211, 211, 211);
+        padding: 8px;
+        /* grid-column: 1 / -1; */
+    }
+
+    #img-manga {
+        width: 180px;
+        position:relative;  bottom:140px; left:20px;
+
+    }
+
+    #search-bar {
+        background-color: rgba(219, 40, 40, 0.219);
+        border-radius: 8px;
+        height: 20px;
+        width: 400px;
+        position:relative; left:620px; bottom:240px;
+        /* grid-column: 3 / 8;
+        grid-row: 3 / 3; */
+    }
+
+    #p {
+        font-size: 40px;
+        font-family: cursive;
+        /*position:relative; left: 380px; */ /*this creates extra white space at the end of page*/
+        margin-left: 600px;
+    }
+
+    #links {
+         position: relative; bottom: 180px;
+         margin-left: 300px;
+         font-size: 20px;
+    }
+
+    #line1 {
+        background-color: black;
+        height: 3px;
+        position:relative;  bottom:180px;
+    }
+
+    nav {
+        margin-left: 30px;
+        margin-right: 30px;
+        border: 1px solid black;
+        width: 170px;
+        position:relative;  bottom: 180px; left:100px;
+        /* grid-column: 1 / 1; */
+    }
+
+    #li-header {
+        background-color: rgba(128, 128, 128, 0.363);
+        font-family: 'Franklin Gothic Medium', sans-serif;
+        text-align: center;
+        margin-right: 10px;
+
+    }
+
+    #manga-01 {
+        width: 1300px;
+        position:relative;  bottom:680px; left:400px;
+        border: solid black;
+
+    }
+}

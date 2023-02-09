@@ -1,0 +1,25 @@
+#display {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  body{
+    background-image: linear-gradient( to bottom right, rgb(121, 173, 233),rgb(53, 210, 184));
+  }
+
+  .btn-number{
+    background-color: rgb(212, 180, 241);
+
+  }
+
+  .btn{
+    background-color: rgb(133, 240, 240);
+  }

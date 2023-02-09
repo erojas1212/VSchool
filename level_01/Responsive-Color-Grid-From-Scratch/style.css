@@ -1,0 +1,89 @@
+/* {
+  box-sizing: border-box;
+  font-size: 0px;
+} */
+@media only screen and (max-width: 768px) {
+
+  body {
+    background-color: yellow;
+  }
+
+.box1 {
+    width: 504px;
+    height: 100px;
+    background-color: #F5C6D6;
+    border: 10px solid white;
+}
+
+.box2 {
+  display:inline-block;
+  width: 108px;
+  height: 100px;
+  background-color: #EE2E84;
+  border: 10px solid white
+}
+
+.box3 {
+  display: inline-block;
+  height: 100px;
+  width: 240px;
+  background-color: #85CFD8;
+  border: 10px solid white;
+}
+
+.box4 {
+  display: inline-block;
+  height: 100px;
+  width: 360px;
+  border: 10px solid white;
+  background-color: #8DC63F;
+}
+
+#box5 {
+  background-color: #E76E34;
+  width: 120px;
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: blue;
+  }
+
+.box1 {
+    width: 9000px;
+    height: 100px;
+    background-color: #F5C6D6;
+    border: 10px solid white;
+}
+
+.box2 {
+  display:inline-block;
+  width: 9000px;
+  height: 100px;
+  background-color: #EE2E84;
+  border: 10px solid white
+}
+
+.box3 {
+  display: inline-block;
+  height: 100px;
+  width: 9000px;
+  background-color: #85CFD8;
+  border: 10px solid white;
+}
+
+.box4 {
+  display: inline-block;
+  height: 100px;
+  width: 9000px;
+  border: 10px solid white;
+  background-color: #8DC63F;
+}
+
+#box5 {
+  background-color: #E76E34;
+  width: 90000px;
+}
+}
