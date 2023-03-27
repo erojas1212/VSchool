@@ -1,0 +1,78 @@
+{
+    "Appetizers":[
+        {
+            "appetizers-01": "Teriyaki Meatballs",
+            "Ingridients": ["meatballs","teriyaki sauce", "onion", "yellow pepper", "salt"],
+            "Nutrion Facts": "1 meatball: 55 calories"
+           },
+
+         {
+            "appetizers-02": "Fruit Bowl",
+            "Ingridients": ["10 fresh strawberries, halved","2 smal navel oranges, thinly sliced", "1 medium mango", "blueberries"],
+            "Nutrion Facts": ["1 Serving: 104 calories", "7g protein"]
+         },
+         {
+            "appetizers-03": "Ham and cheese biscuit snacks",
+            "Ingridients": ["10 fresh strawberries, halved","2 smal navel oranges, thinly sliced", "1 medium mango", "blueberries"],
+            "Nutrion Facts": ["1 Serving: 104 calories", "7g protein"]
+         }
+    ],
+    "Cold Sandwiches":[
+        {
+            "Cold-Sandwiche-01": "Turkey Sandwiche",
+            "Ingridients": ["Turkey", "bread of your choice", "cheese", "lettuce", "tomato", "onion", "jalapeno"],
+            "Nutrion Facts": ["calories: 300", "28g protein"]
+        },
+        {
+            "Cold-Sandwiche-02": "Turkey Sandwiche",
+            "Ingridients": ["Turkey", "bread of your choice", "cheese", "lettuce", "tomato", "onion", "jalapeno"],
+            "Nutrion Facts": ["calories: 300", "28g protein"]
+        },
+        {
+            "Cold-Sandwiche-03": "Peanut Butter, Strawberry and Honey Sandwich",
+            "Ingridients": ["peanut Butter", "strawberries", "honey", "bread of your choice", "thinly sliced mint"],
+            "Nutrion Facts": ["calories: 208", "12g protein"]
+        }
+    ],
+    "Hot Sanwiches":[
+            {
+                "Hot-Sandwiche-01": "Pulled Pork",
+                "Ingridients": ["pork shoulder roast", "pickles", "bread of your choice", "barbecue sauce"],
+                "Nutrion Facts": ["calories: 418", "29g protein"]
+            },
+            {
+                "Hot-Sandwiche-02": "Philly Cheese Sandwich",
+                "Ingridients": ["pork shoulder roast", "Onions", "res peppers", "green peppers", "bread of your choice", "cheese"],
+                "Nutrion Facts": ["calories: 546", "40g protein"]
+            },
+            {
+                "Hot-Sandwiche-02": "Meatball Sandwich",
+                "Ingridients": ["meatballs", "marinara sauce", "bread of your choice", "cheese"],
+                "Nutrion Facts": ["calories: 400", "21g protein"]
+            }
+    ],
+    "Dessert":[
+        {
+            "Dessert-01": "Mocha Cookies Bar",
+            "Ingridients": ["espresso powder", "brewed coffe", "cocoa powder", "white suger", "egg"],
+            "Nutrion Facts": ["calories: 130", "2g protein"]
+        },
+        {
+            "Dessert-02": "S'mores Cookies",
+            "Ingridients": ["milk", "marshmellow", "chocolate", "cookies", "butter"],
+            "Nutrion Facts": ["calories: 167", "2g protein"]
+        }
+    ],
+    "Drinks":[
+        {
+            "Drink-01": "Frozen Mocha",
+            "Ingridients": ["soy milk", "brewed coffe", "cocoa powder", "mapple syrup"],
+            "Nutrion Facts": ["calories: 134", "8g protein"]
+        },
+        {
+            "Drink-02": "Watermelon Lemonade",
+            "Ingridients": ["watermelon", "lime juice", "sugar"],
+            "Nutrion Facts": ["calories: 199", "2g protein"]
+        }
+    ]
+}
