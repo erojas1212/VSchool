@@ -17,6 +17,7 @@ function listData(data){
         div.classList.add(data[i]._id)
         todoList.appendChild(div)
 
+
         //title
         const todoTitle = document.createElement('h1')
         todoTitle.textContent = data[i].title
@@ -47,13 +48,13 @@ function listData(data){
 
         deleteBtn.addEventListener('click', function (event) {
             event.preventDefault(event)
-           const id = event.target.parentElement.className // I could also use this to access the id
+            const id = event.target.parentElement.className // I could also use this to access the id
             const idButton = event.target.className
-        //    console.log(event)
+            //    console.log(event)
 
             axios.delete(`https://api.vschool.io/edRojas/todo/${idButton}`)
-                .then(res => getData())
-                .catch(err => console.log(err))
+            .then(res => getData())
+            .catch(err => console.log(err))
         })
         // END DELETE BUTTON FUNC
 
@@ -62,9 +63,16 @@ function listData(data){
         check.setAttribute('type', 'checkbox');
         div.appendChild(check)
 
-        document.getElementById("todo-list").appendChild(check)
+        if (data[i].completed ===  true) {
+            todoTitle.style.textDecoration = 'line-through'
+            todoDescription.style.textDecoration = 'line-through'
+            todoPrice.style.textDecoration = 'line-through'
+            check.checked = true
+        }
+
         check.addEventListener("click", function (event) {
              const id = event.target.parentElement.className
+             console.log(id)
              if (check.checked) {
                 todoTitle.style.textDecoration = 'line-through'
                 todoDescription.style.textDecoration = 'line-through'

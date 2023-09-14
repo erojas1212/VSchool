@@ -1,0 +1,103 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Occupy at least the full viewport height */
+}
+
+
+#navbar-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#main-content {
+  flex: 1;
+  text-align: center;
+  padding: 50px 0;
+}
+
+#footer{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+
+.light-theme{
+  background-color: #cfcfcf;
+  color: #000;
+}
+
+.dark-theme{
+  background-color: #3a3b3c;
+  color: #fff;
+}
+
+.btn-toggle{
+  font-size: 24px;
+  padding: 8px 16px;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.blue-theme {
+  background-color: rgb(143, 199, 229);
+  color: white;
+  border: solid black .9px;
+}
+
+.white-theme {
+  background-color: rgba(255, 255, 255, 0.491);
+  color: black;
+  border: solid black .9px;
+}
+
+.navbar-light{
+  background-color: rgb(143, 199, 229);
+  color: white;
+  border: solid black .9px;
+
+}
+
+.navbar-dark{
+  background-color: black;
+  color: rgb(0, 238, 255);
+}
+
+.main-light{
+  background-color: rgb(204, 233, 248);
+
+}
+
+.main-dark{
+  color: rgba(255, 81, 0, 0.985);
+  background-color: rgb(26, 26, 26);
+}
+
+.footer-light{
+  background-color: rgb(203, 221, 221);
+
+
+}
+
+.footer-dark{
+  background-color: rgb(44, 47, 47);
+  color: white;
+}
+
+.button-light {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.button-dark {
+  background-color: #3a3b3c;
+  color: #fff;
+}
