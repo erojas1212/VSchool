@@ -52,7 +52,7 @@ function App() {
     <div className="bounty-container">
       <h1>Bouty Hunter</h1>
       <AddBountyForm submit={addBounty} btnText="Add Bounty" />
-    
+
       {bounty.map((bounty) => (
         <Bounty
           {...bounty}

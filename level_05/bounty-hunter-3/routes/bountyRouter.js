@@ -55,8 +55,8 @@ bountyRouter.put("/:bountyId", (req, res) => {
   const bountyToUpdate = req.params.bountyId;
   const updateBounty = req.body;
   const index = bounty.findIndex((bounty) => bounty._id === bountyToUpdate);
-  Object.assign(bounty[index], updateBounty);
-  res.send(`Bounty with id ${bountyToUpdate} updated`);
+  const updatedBounty = Object.assign(bounty[index], updateBounty);
+  res.send(updatedBounty);
 });
 
 module.exports = bountyRouter;
